@@ -1,0 +1,213 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    background-color: #211215;
+
+}
+
+.contenedor__fondo{
+    top: 0;
+    background-image: url(media/logopoch.png);
+    display: flex;
+    width: 100%;
+    height: 300vh;
+    justify-content: center;
+    position: fixed;
+}
+
+.contenedor__capa{
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    opacity: 0.8;
+}
+
+/*navegacion*/
+.navegacion {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: #211215;
+    display: flex;
+    justify-content: center;    
+    margin: 0;
+    bottom: 1;
+    
+
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav a img{
+    height: 6vh;
+    width: 12vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vh;
+}
+
+.material-symbols-outlined{
+    font-size: 35px;
+    color: #ea5d2f;
+}
+
+
+/*general*/
+.general {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300vh;
+    align-items: center;
+}
+
+.contenedor__nuevaa{
+    
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: fixed;
+    background-color: white;
+}
+
+.nueva__a{
+    position: absolute;
+    display: flex;
+    height: 50vh;
+    width: 60%;    
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.nueva__aimg{
+    height: 30vh;
+    width: 40vh;
+    background-color: transparent;
+}
+
+.contenedor__h{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.nueva__ah1{
+    font-size: 5vh;
+    color: #ea5d2f;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: left;
+    background-color: transparent; 
+}
+
+.nueva__ah2{
+    text-align: left;
+    font-size: 3vh;
+    color: #211215;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: transparent;
+}
+
+.general__dos{
+    top: 60vh;
+    height: 250vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-image: url(media/logopoch.png);
+}
+
+.capa2{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+.nuestro__local{
+    position: absolute;
+    top: 5vh;
+    display: flex;
+    height: 50vh;
+    width: 114vh;
+    background-color: #211215;
+}
+
+.contenedor__nlocal{
+
+    display: flex;
+    position: relative;
+    margin: 2vh 2vh 2vh 2vh; 
+    height: 46vh;
+    width: 110vh;
+    background-color: white;
+}
+
+
+
+/* pie */
+footer {
+    background-color: #211215;
+    height: 25vh;
+    align-items: center;
+    position: relative;
+}
+
+.contenedor__footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.contenedor__footer a{
+    margin-top: 3vh;
+}
+
+.contenedor__footer ul{
+    margin-top: 3vh;
+    list-style: none;
+    color: #ea5d2f;    
+}
+
+.lilocales li{
+    margin-top: 7px;
+}
+
+.liredes li{
+    margin-top: 7px;
+}
+
+.limenu li{
+    margin-top: 7px;
+}
+
+.lilocales li a{
+    text-decoration: none ;
+    color: white;
+}
+
+.liredes li a{
+    text-decoration: none ;
+    color: white;
+}
+
+.limenu li a{
+    text-decoration: none ;
+    color: white;
+}

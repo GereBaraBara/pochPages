@@ -1,0 +1,127 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/*navegacion*/
+.navegacion {
+    width: 100%;
+    height: 10vh;
+    background-color: #211215;
+    display: flex;
+    justify-content: center;    
+    margin: 0;
+    position: fixed;
+}
+
+nav {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav a img{
+    height: 6vh;
+    width: 12vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vh;
+}
+
+.material-symbols-outlined{
+    font-size: 35px;
+    color: #ea5d2f;
+}
+
+
+/*general*/
+.general {
+    top: 10vh;
+    width: 100vh;
+    height: 300vh;
+
+}
+
+.capa{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background: #211215;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+
+}
+
+video{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+
+}
+
+
+
+/* pie */
+footer {
+    top: 10vh;
+    background-color: #211215;
+    height: 25vh;
+    align-items: center;
+    position: relative;
+}
+
+.contenedor__footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.contenedor__footer a{
+    margin-top: 3vh;
+}
+
+.contenedor__footer ul{
+    margin-top: 3vh;
+    list-style: none;
+    color: #ea5d2f;    
+}
+
+.lilocales li{
+    margin-top: 7px;
+}
+
+.liredes li{
+    margin-top: 7px;
+}
+
+.limenu li{
+    margin-top: 7px;
+}
+
+.lilocales li a{
+    text-decoration: none ;
+    color: white;
+}
+
+.liredes li a{
+    text-decoration: none ;
+    color: white;
+}
+
+.limenu li a{
+    text-decoration: none ;
+    color: white;
+}
