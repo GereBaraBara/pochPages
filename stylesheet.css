@@ -1,8 +1,26 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #211215;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ea5d2f;
+    border-radius: 50px;
+    opacity: 50%;
+}
+
+::-webkit-scrollbar-button {
+    color: white;
+}
+
 * {
     padding: 0 0;
     margin: 0 0;
     background-color: #211215;
-
 }
 
 .contenedor__fondo{
@@ -108,7 +126,7 @@ nav ul {
 .nueva__ah1{
     font-size: 5vh;
     color: #ea5d2f;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Bebeas Neue', sans-serif;
     text-align: left;
     background-color: transparent; 
 }
@@ -117,7 +135,7 @@ nav ul {
     text-align: left;
     font-size: 3vh;
     color: #211215;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     background-color: transparent;
 }
 
@@ -137,27 +155,6 @@ nav ul {
     height: 100%;
     width: 100%;
 }
-
-.nuestro__local{
-    position: absolute;
-    top: 5vh;
-    display: flex;
-    height: 50vh;
-    width: 114vh;
-    background-color: #211215;
-}
-
-.contenedor__nlocal{
-
-    display: flex;
-    position: relative;
-    margin: 2vh 2vh 2vh 2vh; 
-    height: 46vh;
-    width: 110vh;
-    background-color: white;
-}
-
-
 
 /* pie */
 footer {
