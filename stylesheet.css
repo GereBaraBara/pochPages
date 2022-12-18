@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -18,6 +18,7 @@
 }
 
 * {
+    max-width: 10ovh;
     padding: 0 0;
     margin: 0 0;
     background-color: #211215;
@@ -28,7 +29,7 @@
     background-image: url(media/logopoch.png);
     display: flex;
     width: 100%;
-    height: 300vh;
+    height: 200vh;
     justify-content: center;
     position: fixed;
 }
@@ -85,12 +86,11 @@ nav ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 300vh;
+    height: 200vh;
     align-items: center;
 }
 
 .contenedor__nuevaa{
-    
     display: flex;
     width: 100%;
     height: 60vh;
@@ -98,7 +98,7 @@ nav ul {
     justify-content: center;
     background-color: transparent;
     position: fixed;
-    background-color: white;
+    background-color: #211215;
 }
 
 .nueva__a{
@@ -134,14 +134,17 @@ nav ul {
 .nueva__ah2{
     text-align: left;
     font-size: 3vh;
-    color: #211215;
+    color: white;
     font-family: 'Bebas Neue', sans-serif;
     background-color: transparent;
 }
 
 .general__dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 60vh;
-    height: 250vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -149,12 +152,121 @@ nav ul {
     background-image: url(media/logopoch.png);
 }
 
+
 .capa2{
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+    position: absolute;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.85;
     height: 100%;
     width: 100%;
 }
+
+.burguers{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    top: 80px;
+}
+
+.burguers h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;    
+}
+
+
+
+.burguer_onlycheese{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_poch{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_cheeseburguer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_bluecheese{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_emmental{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_mexican{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_provolone{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_american{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_deliburguer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_pesto{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_pollito{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+.burguer_bondiolita{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vh;
+    background-color: transparent;
+}
+
 
 /* pie */
 footer {
