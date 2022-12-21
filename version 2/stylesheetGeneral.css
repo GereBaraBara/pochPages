@@ -1,0 +1,126 @@
+body{
+
+    background-image: url(../media/logopoch.png);
+}
+
+.paginaGeneral{
+    width: 79vw;
+    margin-left: 19vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paginaInicio{
+    width: 79vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedorGeneral{
+    width: 79vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloBuenasBurgers{
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    height: 16vh;
+    width: 60vw;
+    background-color: #211215;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    color: #ed5835;
+}
+
+
+.contenedorBurgerMasVendida{
+    margin: 1vh 0vh 0vh 1vh;
+    height: 35vh;
+    width: 60vw;
+    background-color: #211215;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenBurgerMasVendida{
+    height: auto;
+    width: 20vw;
+}
+.dataBurgerMasVendida{
+    height: auto;
+    width: 30vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ubicacionInicio{
+    margin: 1vh 0vh 0vh 1vh;
+    height: 45vh;
+    width: 60vw;
+    background-color: #211215;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubiTitulo{
+    height: auto;
+    width: 20vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ubi iframe{
+    height: auto;
+    width: 30vw;
+}
+
+.instagramInicio{
+    margin: 1vh 0vh 0vh 1vh;
+    height: 60vh;
+    width: 60vw;
+    background-color: #211215;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagramInicio h1{
+    height: auto;
+    width: 20vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.instagram-media{
+    width: 30vw;
+
+}
+
+.galeriaInicio{
+    margin: 1vh 0vh 0vh 1vh;
+    height: 43vh;
+    width: 60vw;
+    background-color: #211215;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenGaleriaInicio{
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.barraVerticalMenu{
+    height: 100vh;
+    width: 19vw;
+    background-color: #211215;
+    display: flex;
+    position: fixed;
+}
+
+.cabeza{
+    height: 100vh;
+    width: 19vw;
+    background-color: #211215;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.logoPrincipal img{
+    margin: 5vh 0vh 0vh 0vh;
+    width: 9vw;
+}
+
+.navegador{
+    height: 100vh;
+    width: 9vw;
+    background-color: #211215;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.listadoPrincipal{
+    height: 100vh;
+    width: 9vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.listadoPrincipal li{
+    margin : 5vh 0vh 0vh 0vh;
+}
+
+.listadoPrincipal a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
